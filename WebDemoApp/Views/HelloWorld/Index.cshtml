@@ -1,0 +1,10 @@
+﻿@model List<DogViewModel>
+
+<h1>Index</h1>
+
+<ul>
+    @foreach (var dog in Model)
+    {
+        <li>@dog.Name (@dog.Age)</li>
+    }
+</ul>
